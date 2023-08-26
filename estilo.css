@@ -1,0 +1,260 @@
+
+
+body{
+    background-image: url(imagenes/FONDO.png);
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Lato';
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+.icon-cart{
+width: 40px;
+height: 40px;
+stroke: white;
+}
+.icon-cart :hover{
+    cursor: pointer;
+}
+
+img{
+
+    max-width: 100%;
+}
+header{
+    color:black;
+    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px  15px 0;
+    align-items: center;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 80px;
+    
+}
+
+.container-icon{
+    position: relative;
+}
+.count-products{
+    position: absolute;
+    top: 31%;
+    right: 0;
+
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#contador-prductos{
+    font-size: 15px;
+}
+
+.container-cart-products{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20) ;
+    border-radius: 10px
+}
+.cart-product{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 5px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.info-cart-product{
+    display:flex;
+    justify-content: space-between;
+    flex: 0.8;
+
+    
+}
+.tiulo-pruducto-carrito{
+font-size: 30px;
+
+}
+
+.precio-producto-carrito{
+font-weight: 700;
+font-size: 20px;
+margin-left: 10px;
+
+}
+.cantidad-producto-carrito{
+font-weight: 400;
+font-size:20px;
+}
+
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+.icon-close:hover{
+    stroke:red;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.car-total h3{
+
+    font-size: 20px;
+    font-weight:700 ;
+}
+
+.total-pagar{
+font-size: 20px;
+font-weight: 900;
+}
+
+.hidden-cart{
+    display: none;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.item{
+border-radius: 20px;
+
+
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+
+}
+
+
+.item img{
+    
+    object-fit: cover;
+    border-radius: 10px 10px 0 0 ;
+    transition: all .5s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.infoproducto{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.price{
+
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.infoproducto button{
+    border: none;
+    background: none;
+    color: #fff;
+    background-color: black;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+ nav a{
+    font-weight: 600;
+    padding-right: 15px;
+
+}
+
+nav a:hover{
+    color: red;
+}
+
+
+    
+
+}
+
+.logo-insta{
+    display: flex;
+
+}
+.logo-insta{
+    height: 50;
+}
+
+ 
+
+
+#titulo{
+    background-color: red;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    text-align: center; 
+}
+.price{
+    font-size: 50px;
+}
+
+a{
+    font-size: 17px;
+}
+
+footer{
+    background-color: violet;
+}
+
